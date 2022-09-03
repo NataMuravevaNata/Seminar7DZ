@@ -23,26 +23,7 @@ void FillMatrix (int [,] matr)
     } 
 }
 
-//void SelectionSort (int [,] matr)
-//{
-//    for (int i = 0; i < matr.GetLength(0); i++)
-//        {
- //           for (int j =0; j < matr.GetLength(1); j++)
- //       
- //               {
- //               
-//int maxPosition = i;
- //               for (int k = i+1; k < matr.GetLength(0); k++)
- //                  {
- //                        if ( matr[k,j] > matr[maxPosition, j]) maxPosition=k;
-//                     }    
- //               int temporary = matr[i,j];
-//                 matr[i,j]=matr[maxPosition, j];
- //                matr[maxPosition, j]=temporary; 
-//                 }
-//
-//        }
-//}
+
 void SelectionSort (int [,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
